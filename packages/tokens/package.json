@@ -1,0 +1,19 @@
+{
+  "name": "@intelli-ui/tokens",
+  "version": "1.0.0",
+  "description": "Design System's Tokens",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "author": "Ewerton 'Witcher' Vicentin",
+  "license": "MIT",
+  "devDependencies": {
+    "@intelli-ui/ts-config": "*",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.2"
+  }
+}
