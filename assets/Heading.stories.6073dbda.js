@@ -1,0 +1,3 @@
+import{H as e}from"./index.120c15ae.js";import"./index.e5bf1381.js";import"./iframe.882da6a2.js";import"./jsx-runtime.93c23d02.js";import"./index.5ad16310.js";const a={title:"Typography/Heading",component:e,args:{children:"Custom title",size:"md"},argTypes:{size:{options:["sm","md","lg","2xl","4xl","5xl","6xl"],control:{type:"inline-radio"}}}},n={},p={args:{children:'H1 Heading with property size: "lg"',as:"h1",size:"lg"},parameters:{docs:{description:{story:`By default, the heading component will be even a "h2" element, 
+           but we can change it using "as" property.`}}}},m=["Primary","CustomTag"];export{p as CustomTag,n as Primary,m as __namedExportsOrder,a as default};
+//# sourceMappingURL=Heading.stories.6073dbda.js.map
