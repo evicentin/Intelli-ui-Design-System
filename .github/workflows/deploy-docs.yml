@@ -27,7 +27,7 @@ jobs:
       - run: npm ci
 
       - run: npm run build
-       env:
+        env:
           TURBO_TOKEN: ZDPCRkZWLcj61WKBHOrrmGQs
           TURBO_TEAM: evicentin
 
