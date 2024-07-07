@@ -5,13 +5,14 @@ on:
     branches:
       - main
 
-  permissions:
-    contents: read
-    pages: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
