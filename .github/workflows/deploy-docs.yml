@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
- job-name:
-    permissions:
-      contents: write
+  permissions:
+    contents: read
+    pages: write
 
   build-and-deploy:
     runs-on: ubuntu-latest
